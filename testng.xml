@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MavenLifeCycleSuite">
+	<test thread-count="5" name="testng">
+		<classes>
+			<class name="MavenProjectGroup.MavenLifeCycleAndGoals.AppTest">
+				<methods>
+					<include name="shouldAnswerWithTrue" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="MyTestFalse">
+		<classes>
+			<class name="MavenProjectGroup.MavenLifeCycleAndGoals.AppTest">
+				<methods>
+					<include name="shouldAnswerWithFalse" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+MavenLifeCycleSuite -->
